@@ -1,0 +1,9 @@
+
+.tg-link {
+    @include center;
+    text-align: center;
+
+    img {
+        max-width: 30%;
+    }
+}

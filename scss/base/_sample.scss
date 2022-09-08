@@ -1,0 +1,35 @@
+//Цвета
+$red-color: #F78888;
+$yellow-color: #DEAE2A;
+$white-color: #ECECEC;
+$light-blue-color: #90CCF4;
+$blue-color: #5DA2D5;
+
+// Шрифты
+$nunito-font: 'Nunito', sans-serif;
+
+// Центровка
+
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// //LG
+// @media (min-width: 992px) and (max-width: 1199px) { ... }
+
+// //Portrait tablets and small desktops
+// @media (min-width: 768px) and (max-width: 991px) { ... }
+
+// //Landscape phones and portrait tablets
+// @media (max-width: 767px) { ... }
+
+// //XS
+// @media (max-width: 575px) { ... }
+
+// //Portrait phones and smaller
+// @media (max-width: 480px) { ... }
+
+// //Iphone 5 
+// @media (max-width: 320px) { ... }

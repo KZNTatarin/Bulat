@@ -1,0 +1,29 @@
+.nav {
+    background-color: $blue-color;
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 4;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        color: $white-color;
+    align-items: center;
+
+    }
+}
+
+.logo {
+    font-weight: 700;
+}
+
+.popup__btn {
+    cursor: pointer;
+}
+
+@media (max-width: 320px) { 
+    .logo {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,41 @@
+.about {
+    background-color: $blue-color;
+
+    &__wrap {
+        display: flex;
+        flex: 1;
+        align-items: center;
+    }
+
+    &__img {
+        margin-right: 50px;
+       flex: 1;
+
+       & img {
+        max-width: 100%;
+       }
+    }
+
+    &__text {
+        flex: 1;
+        align-self: center;
+    }
+}
+
+@media (max-width: 767px) { 
+    .about {
+
+        &__img {
+            display: none;
+        }
+
+        &__text {
+            text-align: center;
+            font-size: 15px;
+        }
+
+    }
+ }
+
+
+
